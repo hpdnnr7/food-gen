@@ -114,13 +114,13 @@ eh_breakfast=[" Love Café or ", "La Shuk"]
      kor_dinner
   elsif neighborhood == "Korea Town" && type == "Breakfast"
      kor_breakfast
-  elsif neighborhood == "Hells Kitchen" && type == "Dessert"
+  elsif neighborhood == "Hell's Kitchen" && type == "Dessert"
      hel_dessert
-  elsif neighborhood == "Hells Kitchen" && type == "Dinner"
+  elsif neighborhood == "Hell's Kitchen" && type == "Dinner"
      hel_dinner
-  elsif neighborhood == "Hells Kitchen" && type == "Lunch"
+  elsif neighborhood == "Hell's Kitchen" && type == "Lunch"
      hel_lunch
-  elsif neighborhood == "Hells Kitchen" && type == "Breakfast"
+  elsif neighborhood == "Hell's Kitchen" && type == "Breakfast"
      hel_breakfast
   elsif neighborhood == "Upper East Side" && type == "Dessert"
      ues_dessert
