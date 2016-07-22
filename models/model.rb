@@ -1,44 +1,5 @@
-# restaurant_array=["Ice and Vice","Cocoa Bar", "Sugar Sweet Sunshine"]
-les_dessert=["Ice and Vice", "Melt Bakery"]
-les_dinner=["Goa Taco", "The Fat Radish"]
-les_lunch=["Black Tree", "Cheeky Sandwiches"]
-les_breakfast=["Cafe Petisco", "Egg Shop"]
-soho_dessert=["Georgetown Cupcake", "Smile To Go"]
-soho_dinner=["Aurora SoHo", "Osteria Morini"]
-soho_lunch=["Delicatessen", "David Burke Kitchen"]
-soho_breakfast=["Cupping Room Cafe", "Jack’s Wife Freda"]
-tri_dessert=["Takahachi Bakery", "Grandaisy Bakery"]
-tri_dinner=["Bouley", "Bâtard"]
-tri_lunch=["Nobu", "Gotan"]
-tri_breakfast=["Distilled", "Tribeca's Kitchen"]
-ev_dessert=["Momofuku Milk Bar", "Spot Dessert Bar"]
-ev_dinner=["Zen 6", "Huertas"]
-ev_lunch=["by CHLOE", "Westville East"]
-ev_breakfast=["Spiegel", "Downtown Bakery"]
-kor_dessert=["Grace Street", "BESFREN"]
-kor_dinner=["Five Senses," "Barn Joo 35"]
-kor_lunch=["Her Name is Han", "Food Gallery 32"]
-kor_breakfast=["Bagel & Schmear", "The Harold"]
-hel_dessert=["Donna Bell's Bake Shop", "Heavenly Cakes in Hell's Kitchen"]
-hel_dinner=["Esca", "Kashkaval"]
-hel_lunch=["Danji", "Carmine's"]
-hel_breakfast=["Evergreen Diner", "Norma's"]
-ues_dessert=["The Sweet Shop NYC", "Lady M Cake Boutique"]
-ues_dinner=["Heidi's House", "Daniel"]
-ues_lunch=["Amali", "J.G. Melon"]
-ues_breakfast=["Sarabeth's", "Petite Shell"]
-uws_dessert=["Magnolia Bakery", "Glaser's Bake Shop"]
-uws_dinner=["Parm Upper West Side", "Jacob's Pickles"]
-uws_lunch=["Isabella’s", "Kefi"]
-uws_breakfast=["Piccolo Café", "Spring Natural Kitchen"]
-eh_dessert=["Savoy Bakery", "Brother's Bakery Café"]
-eh_dinner=["Sylvia's", "Nocciola Ristorante"]
-eh_lunch=["Polash", "Taci Mix"]
-eh_breakfast=["Love Café", "La Shuk"]
-
-
 def recommend(neighborhood, type)
-  les_dessert=[" Ice and Vice or ", "Melt Bakery"]
+les_dessert=[" Ice and Vice or ", "Melt Bakery"]
 les_dinner=[" Goa Taco or ", "The Fat Radish"]
 les_lunch=[" Black Tree or ", "Cheeky Sandwiches"]
 les_breakfast=[" Cafe Petisco or ", "Egg Shop"]
@@ -75,76 +36,76 @@ eh_dinner=[" Sylvia's or ", "Nocciola Ristorante"]
 eh_lunch=[" Polash or ", "Taci Mix"]
 eh_breakfast=[" Love Café or ", "La Shuk"]
   if neighborhood == "Lower" && type == "Dessert"
-    les_dessert
+    les_dessert.join
   elsif neighborhood == "Lower" && type == "Dinner"
-    les_dinner
+    les_dinner.join
   elsif neighborhood == "Lower" && type == "Lunch"
-    les_lunch
+    les_lunch.join
   elsif neighborhood == "Lower" && type == "Breakfast"
-    les_breakfast.join
+    les_breakfast.join.join
   elsif neighborhood == "SoHo" && type == "Dessert"
-    soho_dessert
+    soho_dessert.join
   elsif neighborhood == "SoHo" && type == "Dinner"
-    soho_dinner
+    soho_dinner.join
   elsif neighborhood == "SoHo" && type == "Lunch"
-    soho_lunch
+    soho_lunch.join
   elsif neighborhood == "SoHo" && type == "Breakfast"
-     soho_breakfast
+     soho_breakfast.join
   elsif neighborhood == "Tribeca" && type == "Dessert"
-     tri_dessert
+     tri_dessert.join
   elsif neighborhood == "Tribeca" && type == "Dinner"
-     tri_dinner
+     tri_dinner.join
   elsif neighborhood == "Tribeca" && type == "Lunch"
-     tri_lunch
+     tri_lunch.join
   elsif neighborhood == "Tribeca" && type == "Breakfast"
-     tri_breakfast
-  elsif neighborhood == "East Village " && type == "Dessert"
-     ev_dessert
-  elsif neighborhood == "East Village " && type == "Breakfast"
-     ev_breakfast
-  elsif neighborhood == "East Village " && type == "Lunch"
-     ev_lunch
-  elsif neighborhood == "East Village " && type == "Breakfast"
-     ev_breakfast
+     tri_breakfast.join
+  elsif neighborhood == "East" && type == "Dessert"
+     ev_dessert.join
+  elsif neighborhood == "East" && type == "Breakfast"
+     ev_breakfast.join
+  elsif neighborhood == "East" && type == "Lunch"
+     ev_lunch.join
+  elsif neighborhood == "East" && type == "Breakfast"
+     ev_breakfast.join
   elsif neighborhood == "Korea Town" && type == "Dessert"
-     kor_dessert
+     kor_dessert.join
   elsif neighborhood == "Korea Town" && type == "Lunch"
-     kor_lunch
+     kor_lunch.join
   elsif neighborhood == "Korea Town" && type == "Dinner"
-     kor_dinner
+     kor_dinner.join
   elsif neighborhood == "Korea Town" && type == "Breakfast"
-     kor_breakfast
-  elsif neighborhood == "Hells Kitchen" && type == "Dessert"
-     hel_dessert
-  elsif neighborhood == "Hells Kitchen" && type == "Dinner"
-     hel_dinner
-  elsif neighborhood == "Hells Kitchen" && type == "Lunch"
-     hel_lunch
-  elsif neighborhood == "Hells Kitchen" && type == "Breakfast"
-     hel_breakfast
+     kor_breakfast.join
+  elsif neighborhood == "Hell's" && type == "Dessert"
+     hel_dessert.join
+  elsif neighborhood == "Hell's" && type == "Dinner"
+     hel_dinner.join
+  elsif neighborhood == "Hell's" && type == "Lunch"
+     hel_lunch.join
+  elsif neighborhood == "Hell's" && type == "Breakfast"
+     hel_breakfast.join
   elsif neighborhood == "Upper East Side" && type == "Dessert"
-     ues_dessert
+     ues_dessert.join
   elsif neighborhood == "Upper East Side" && type == "Dinner"
-     ues_dinner
+     ues_dinner.join
   elsif neighborhood == "Upper East Side" && type == "Lunch"
-     ues_lunch
+     ues_lunch.join
   elsif neighborhood == "Upper East Side" && type == "Breakfast"
-     ues_breakfast
+     ues_breakfast.join
   elsif neighborhood == "Upper West Side" && type == "Dessert"
-     ues_dinner
+     ues_dinner.join
   elsif neighborhood == "Upper West Side" && type == "Dinner"
-     uws_dessert
+     uws_dessert.join
   elsif neighborhood == "Upper West Side" && type == "Lunch"
-     uws_lunch
+     uws_lunch.join
   elsif neighborhood == "Upper West Side" && type == "Breakfast"
-     uws_dessert
+     uws_dessert.join
   elsif neighborhood == "East Harlem" && type == "Dessert"
-     eh_dessert
+     eh_dessert.join
   elsif neighborhood == "East Harlem" && type == "Dinner"
-     eh_dinner
+     eh_dinner.join
   elsif neighborhood == "East Harlem" && type == "Lunch"
-     eh_lunch
+     eh_lunch.join
   elsif neighborhood == "East Harlem" && type == "Breakfast"
-    eh_breakfast
+    eh_breakfast.join
   end
 end
