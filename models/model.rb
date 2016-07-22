@@ -42,7 +42,7 @@ eh_breakfast=[" Love Café or ", "La Shuk"]
   elsif neighborhood == "Lower" && type == "Lunch"
     les_lunch.join
   elsif neighborhood == "Lower" && type == "Breakfast"
-    les_breakfast.join.join
+    les_breakfast.join
   elsif neighborhood == "SoHo" && type == "Dessert"
     soho_dessert.join
   elsif neighborhood == "SoHo" && type == "Dinner"
