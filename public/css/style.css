@@ -119,11 +119,6 @@ body {
   text-decoration: none;
 }
 
-/*iframe{
-  display: inline-block;
-  text-align: center;
-}*/
-
 .submit {
     background-color: rgba(226,199,180, 0.3);
     border: none;

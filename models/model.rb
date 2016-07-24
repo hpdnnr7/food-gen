@@ -28,12 +28,12 @@ ues_dinner=[" Heidi's House or ", "Daniel"]
 ues_lunch=[" Amali or ", "J.G. Melon"]
 ues_breakfast=[" Sarabeth's or ", "Petite Shell"]
 uws_dessert=[" Magnolia Bakery or ", "Glaser's Bake Shop"]
-uws_dinner=[" Parm Upper West Side or ", "Jacob's Pickles"]
+uws_dinner=[" Parm or ", "Jacob's Pickles"]
 uws_lunch=[" Isabella’s or ", "Kefi"]
 uws_breakfast=[" Piccolo Café or ", "Spring Natural Kitchen"]
 eh_dessert=[" Savoy Bakery or ", "Brother's Bakery Café"]
 eh_dinner=[" Sylvia's or ", "Nocciola Ristorante"]
-eh_lunch=[" Polash or ", "Taci Mix"]
+eh_lunch=[" Polash or ", "Taco Mix"]
 eh_breakfast=[" Love Café or ", "La Shuk"]
   if neighborhood == "Lower" && type == "Dessert"
     [les_dessert.join,"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.172589407934!2d-73.98913795575896!3d40.71421697933165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2a4ed6af69%3A0x2251f4f24dfba9a9!2sIce+%26+Vice!5e0!3m2!1sen!2sus!4v1469147000206", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.922575797519!2d-73.99141668459487!3d40.719720879331035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a29edcff3c7%3A0xa5977662f26d5e34!2sMelt+Bakery!5e0!3m2!1sen!2sus!4v1469147599297"]
@@ -99,13 +99,13 @@ eh_breakfast=[" Love Café or ", "La Shuk"]
      [uws_lunch.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.16048483686!2d-73.97853978505493!3d40.780485841360665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588ec571848f%3A0xf4b41156de0baf76!2sIsabella&#39;s!5e0!3m2!1sen!2sus!4v1469151123940", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.9420452755576!2d-73.97485088505483!3d40.785288241066425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25884dfe82673%3A0xf1b765d1528c3e7!2sKefi+Restaurant!5e0!3m2!1sen!2sus!4v1469151154860"]
   elsif neighborhood == "UWS" && type == "Breakfast"
      [uws_breakfast.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48335.026336552604!2d-74.0076817600711!3d40.78535197782176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258899e6e7f83%3A0x1642da1ff3cabd20!2sPiccolo+Cafe!5e0!3m2!1sen!2sus!4v1469151215394", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.9778847557623!2d-73.97608088505474!3d40.784500341114786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588575b27943%3A0xcdb47cb69a4bdb21!2sSpring+Natural+Kitchen!5e0!3m2!1sen!2sus!4v1469151236896"]
-  elsif neighborhood == "East Harlem" && type == "Dessert"
+  elsif neighborhood == "El" && type == "Dessert"
      [eh_dessert.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.532928000467!2d-73.94573168505448!3d40.794281440515434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f60473a6070d%3A0x7baef2e76ce07bfe!2sSavoy+Bakery!5e0!3m2!1sen!2sus!4v1469151346829", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.553603125213!2d-73.94046199999998!3d40.79382699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f606b60c2e53%3A0x7fbc312ddc4441d7!2zQnJvdGhlcuKAmXMgYmFrZXJ5IENhZsOp!5e0!3m2!1sen!2sus!4v1469151369830"]
-  elsif neighborhood == "East Harlem" && type == "Dinner"
+  elsif neighborhood == "El" && type == "Dinner"
      [eh_dinner.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.8824115450884!2d-73.9444796!3d40.8085777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f60cd3f0c56f%3A0x42be8b74f8751a5e!2sSylvia&#39;s!5e0!3m2!1sen!2sus!4v1469151418995", "http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.387092280509!2d-73.9384121!3d40.7974868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f607d031751b%3A0xdfb5291aa67e564d!2sNocciola+Ristorante!5e0!3m2!1sen!2sus!4v1469151435730"]
-  elsif neighborhood == "East Harlem" && type == "Lunch"
+  elsif neighborhood == "El" && type == "Lunch"
      [eh_lunch.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2894949458605!2d-73.93849239999997!3d40.79963180000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6085eac3e75%3A0x9e3709052962e6f0!2sPolash!5e0!3m2!1sen!2sus!4v1469151454685", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.4007464698193!2d-73.93867339999998!3d40.79718669999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f607cb7c10d9%3A0x36bfa55e5350933b!2sTaco+Mix%2C+234+E+116th+St+%231%2C+New+York%2C+NY+10029!5e0!3m2!1sen!2sus!4v1469151473759"]
-  elsif neighborhood == "East Harlem" && type == "Breakfast"
+  elsif neighborhood == "El" && type == "Breakfast"
     [eh_breakfast.join, "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48332.6211378434!2d-73.94870039999999!3d40.78865659999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5fdaf7b85db%3A0x7afea6c97f52ef9!2sThe+Love+Cafe!5e0!3m2!1sen!2sus!4v1469151544555", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.7888211152112!2d-73.94870039999999!3d40.78865659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258a7e8478fb5%3A0xcc67adf64ceafebb!2sLa+Shuk!5e0!3m2!1sen!2sus!4v1469151508812"]
   end
 end
