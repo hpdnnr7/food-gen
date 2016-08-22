@@ -133,3 +133,13 @@ body {
     font-size: 12px;
     margin: 10px 40px;
     cursor: pointer;
+}
+
+.credit {
+  color: rgba(206,194,201, 0.40);
+  font-size: 11px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
