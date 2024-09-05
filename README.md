@@ -1,10 +1,9 @@
+# LET'S EAT NYC!
 
-
-##Sinatra Template
-
-Fork and clone this repository to use as a template for your project.
+Check out a walkthrough of our food recommendation website:
 
 
 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-sinatra-project-template' title='Sinatra Template'>Sinatra Template</a> on Learn.co and start learning to code for free.</p>
+https://github.com/user-attachments/assets/17531b12-e8d8-41b5-a785-aa8cb780d076
+
